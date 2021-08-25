@@ -1,0 +1,6 @@
+## Configuração do plugin time-read
+
+plugins:
+  TimeRead:
+    source: "./plugins/time-read/TimeRead.php"
+    wordsPerMinute: 200

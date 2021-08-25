@@ -1,0 +1,15 @@
+## Configurações do tema default
+---
+theme:
+  # Caminho para o diretório do tema. Sem / no final.
+  layouts: "./themes/default/layouts/"
+  mainMenu:
+    - 
+      label: "Home"
+      url: "/index.html"
+    - 
+      label: "About"
+      url: "/pages/about.html"
+    - 
+      label: "Posts"
+      url: "/posts/"

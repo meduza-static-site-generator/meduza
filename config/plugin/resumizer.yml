@@ -1,0 +1,7 @@
+## Configuração do plugin time-read
+
+plugins:
+  Resumizer:
+    source: "./plugins/resumizer/Resumizer.php"
+    maxWords: 30
+    
