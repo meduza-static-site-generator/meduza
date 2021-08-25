@@ -2,5 +2,5 @@
 
 plugins:
   TimeRead:
-    source: "./plugins/time-read/TimeRead.php"
+    source: "./vendor/meduza-static-site-generator/meduza-plugin-time-read/TimeRead.php"
     wordsPerMinute: 200

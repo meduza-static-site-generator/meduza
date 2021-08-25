@@ -2,9 +2,9 @@
 ---
 theme:
   # Caminho para o diretório do tema. Sem / no final.
-  layouts: "./themes/alembic/layouts"
-  static: "./themes/alembic/static"
-  content: "./themes/alembic/content"
+  layouts: "./vendor/meduza-static-site-generator/meduza-theme-alembic/layouts"
+  static: "./vendor/meduza-static-site-generator/meduza-theme-alembic/static"
+  content: "./vendor/meduza-static-site-generator/meduza-theme-alembic/content"
   logo: "assets/logo.svg"
   image: "assets/image.jpg"
   mainMenu:

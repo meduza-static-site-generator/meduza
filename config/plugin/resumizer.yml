@@ -2,6 +2,6 @@
 
 plugins:
   Resumizer:
-    source: "./plugins/resumizer/Resumizer.php"
+    source: "./vendor/meduza-static-site-generator/meduza-plugin-resumizer/Resumizer.php"
     maxWords: 30
     

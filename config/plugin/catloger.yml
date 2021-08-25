@@ -2,7 +2,7 @@
 
 plugins:
   Catloger:
-    source: "./plugins/catloger/Catloger.php"
+    source: "./vendor/meduza-static-site-generator/meduza-plugin-catloger/Catloger.php"
     catalog:
       layout: layout
       tag: tag
