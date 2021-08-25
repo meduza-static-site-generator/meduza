@@ -22,10 +22,9 @@
         }
     },
     "bin": [
-        "./bin/meduza-build.bat",
-        "./bin/meduza-build.sh",
-        "./bin/meduza-serve.bat",
-        "./bin/meduza-serve.sh",
-        "./bin/meduza-create.bat"
+        "./bin/build.bat",
+        "./bin/build.sh",
+        "./bin/serve.bat",
+        "./bin/serve.sh"
     ]
 }
