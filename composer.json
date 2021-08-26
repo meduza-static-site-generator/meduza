@@ -1,7 +1,10 @@
 {
     "name": "meduza-static-site-generator/meduza",
-    "description": "Gerador de sites est\u0000ticos com PHP.",
+    "description": "Gerador de sites estáticos com PHP.",
     "type": "project",
+    "keywords": ["php8", "php", "static site generator", "static site"],
+    "homepage": "https://github.com/meduza-static-site-generator/meduza/",
+    "readme": "README.md",
     "require": {
         "twig/twig": "3.x-dev",
         "ext-yaml": "^2.2",
@@ -12,9 +15,15 @@
     "authors": [
         {
             "name": "Everton da Rosa",
-            "email": "everton3x@gmail.com"
+            "email": "everton3x@gmail.com",
+            "homepage": "https://everton3x.github.io",
+            "role": "developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/meduza-static-site-generator/meduza/issues",
+        "source": "https://github.com/meduza-static-site-generator/meduza/"
+    },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
