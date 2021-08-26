@@ -158,7 +158,7 @@ Para contribuir com o projeto, faça o seguinte:
 - Crie um *fork*;
 - Clone o *fork* e crie um novo *branch* para a sua contribuição;
 - Envie suas alterações para o *fork*;
-- Crie um *pul request*.
+- Crie um *pull request*.
 
 Será interessante você criar um *issue* no repositório oficial para a sua alteração e referenciá-la no nome do seu *branch* e nos *commits*. Também referencie seu *pull request* nas *issue*. Isso agilizará a análise da sua contribuição.
 

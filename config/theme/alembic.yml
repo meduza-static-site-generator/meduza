@@ -1,12 +1,18 @@
 ## Configurações do tema Alembic
 ---
 theme:
-  # Caminho para o diretório do tema. Sem / no final.
+  # Caminho para os diretórios do tema. Sem / no final.
+  # Diretório dos templates para uso de Twig\Loader\FilesystemLoader
   layouts: "./vendor/meduza-static-site-generator/meduza-theme-alembic/layouts"
+  # Diretório para conteúdo estático que será copiado no build (arquivos e subdiretórios)
   static: "./vendor/meduza-static-site-generator/meduza-theme-alembic/static"
+  # Diretório de conteúdo adicional (frontmatter + markdown) e que será processado durante o build.
   content: "./vendor/meduza-static-site-generator/meduza-theme-alembic/content"
+  # Logotipo do site.
   logo: "assets/logo.svg"
+  # Imagem padrão de background (para o caso de não haver "image" no frontmatter)
   image: "assets/image.jpg"
+  # Menu principal do site.
   mainMenu:
     - 
       label: "Home"

@@ -2,5 +2,9 @@
 
 plugins:
   TimeRead:
+    # Caminho relativo/absoluto para o inicializador do plugin.
     source: "./vendor/meduza-static-site-generator/meduza-plugin-time-read/TimeRead.php"
+    # Quantidade de palavras lidas por minuto.
+    # Use valores de 175 ~ 300 ppm
+    # https://blogue.rbe.mec.pt/quantas-palavras-por-minuto-le-um-2282282
     wordsPerMinute: 200

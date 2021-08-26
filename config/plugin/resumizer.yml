@@ -1,7 +1,9 @@
-## Configuração do plugin time-read
+## Configuração do plugin resumizer
 
 plugins:
   Resumizer:
+    # Caminho relativo/absoluto para o inicializador do plugin.
     source: "./vendor/meduza-static-site-generator/meduza-plugin-resumizer/Resumizer.php"
+    # Número máximo de palavras do resumo
     maxWords: 30
     

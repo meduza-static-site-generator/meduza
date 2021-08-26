@@ -1,9 +1,14 @@
-## Configuração do plugin time-read
+## Configuração do plugin catloger
 
 plugins:
   Catloger:
+    # Caminho relativo/absoluto para o inicializador do plugin.
     source: "./vendor/meduza-static-site-generator/meduza-plugin-catloger/Catloger.php"
+    # Coleção de chaves do frontmatter que, se existirem, serão catalogadas.
+    # Cada item de ```catalog``` corresponde a um par chave => valor, onde "chave" é a chave do frontmatter a ser catalogada 
+    # e "valor" é o nome do catálogo em que essa chave será armazenada.
     catalog:
+      # nome do catálog: chave do frontmatter
       layout: layout
       tag: tag
       tags: tag
@@ -11,4 +16,3 @@ plugins:
       categories: category
       categoria: category
       categorias: category
-    
